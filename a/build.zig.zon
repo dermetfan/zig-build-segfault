@@ -3,8 +3,8 @@
     .version = "0.0.0",
     .dependencies = .{
         .b = .{
-            .url = "https://github.com/dermetfan/zig-build-segfault/archive/master.tar.gz",
-            .hash = "1220080c5832b20f12b3f41f6b2608372c15ff76871be62a05f325fe55a0ecc70edb",
+            .url = "https://github.com/dermetfan/zig-build-segfault/archive/ac9e3e4c4e5e8a187bfc807cb0e821832dc35a95.tar.gz",
+            .hash = "12204b1620399caf8963b39dd90451874c3bc527642e79f82c3e7f1ce2c44b346e5d",
         },
     },
     .paths = .{

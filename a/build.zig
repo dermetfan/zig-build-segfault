@@ -13,5 +13,4 @@ pub fn build(b: *std.Build) void {
         .optimize = opts.optimize,
     });
     b.installArtifact(exe);
-    exe.root_module.addImport("b", b.dependency("b", opts).module("b"));
 }

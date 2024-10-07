@@ -1,0 +1,15 @@
+.{
+    .name = "a",
+    .version = "0.0.0",
+    .dependencies = .{
+        .b = .{
+            .url = "https://github.com/dermetfan/zig-build-segfault/archive/master.tar.gz",
+            .hash = "1220080c5832b20f12b3f41f6b2608372c15ff76871be62a05f325fe55a0ecc70edb",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "main.zig",
+    },
+}
